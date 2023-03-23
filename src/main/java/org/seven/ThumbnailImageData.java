@@ -32,4 +32,6 @@ public class ThumbnailImageData {
   @Lob
   @Column(name = "IMAGE_PROPERTY")
   private byte[] imageProperty;
+  @Column(name = "IMAGE_UPLOAD_URL")
+  private String imageUploadUrl;
 }
